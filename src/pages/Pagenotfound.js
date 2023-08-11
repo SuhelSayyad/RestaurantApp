@@ -1,0 +1,13 @@
+import Layout from "../components/Layout/Layout"
+
+function Pagenotfound() {
+  return (
+   <>
+    <Layout>
+        <h1>Page Not Found</h1>
+    </Layout>
+   </>
+  )
+}
+
+export default Pagenotfound

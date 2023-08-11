@@ -1,0 +1,92 @@
+.home{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.headerContainer{
+    width: auto;
+    margin: 50px;
+
+}
+.home .headerContainer h1{
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family:cursive;
+    color:#950202;
+}
+.home .headerContainer p{
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: silver;
+    margin-top: 15px;
+    padding: 0;
+}
+.home .headerContainer button{
+    background-color: #950202;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.home .headerContainer button:hover{
+    background-color: hsl(0, 91%, 47%);
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+@media only screen and (max-width:600px) {
+    .home{
+        justify-content: center;
+        align-items: center;
+    }
+    .headerContainer{
+        margin-left: 50px;
+        border-radius: 10px;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: black;
+        color: #950202;
+    }
+   .home .headerContainer h1{
+        font-size: 40px;
+        height: 30px;
+        margin: 15px 0px;
+        color: aliceblue;
+    }
+    .home .headerContainer p{
+        font-size: 20px;
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+       
+    }
+    .home .headerContainer button{
+        margin-bottom: 20px;
+
+    }
+    .home .headerContainer button:hover{
+        background-color: hsl(0, 91%, 47%);
+        cursor: pointer;
+        transition: 0.3s ease-in;
+    }
+    
+}
